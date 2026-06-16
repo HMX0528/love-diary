@@ -1,0 +1,26 @@
+t=2026-06-16T16:24:33+0800 lvl=info msg="no configuration paths supplied"
+t=2026-06-16T16:24:33+0800 lvl=info msg="using configuration at default config path" path=C:\\Users\\hmx\\AppData\\Local\\ngrok\\ngrok.yml
+t=2026-06-16T16:24:33+0800 lvl=info msg="open config file" path=C:\\Users\\hmx\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2026-06-16T16:24:33+0800 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-06-16T16:24:33+0800 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-06-16T16:24:33+0800 lvl=info msg="client session established" obj=tunnels.session
+t=2026-06-16T16:24:33+0800 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-06-16T16:24:34+0800 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://subsystem-spoon-wrongful.ngrok-free.dev
+t=2026-06-16T16:26:05+0800 lvl=info msg=start pg=/ id=4739c479ff9ddfa2
+t=2026-06-16T16:26:05+0800 lvl=info msg=end pg=/ id=4739c479ff9ddfa2 status=302 dur=0s
+t=2026-06-16T16:26:05+0800 lvl=info msg=start pg=/inspect/http id=47560d7e38822a4c
+t=2026-06-16T16:26:05+0800 lvl=info msg=end pg=/inspect/http id=47560d7e38822a4c status=200 dur=0s
+t=2026-06-16T16:26:05+0800 lvl=info msg=start pg=/static/css/app.DsGlyouJ.css id=2e4c5c1accb9ffba
+t=2026-06-16T16:26:05+0800 lvl=info msg=end pg=/static/css/app.DsGlyouJ.css id=2e4c5c1accb9ffba status=200 dur=55.0449ms
+t=2026-06-16T16:26:07+0800 lvl=info msg=start pg=/ id=521f286b0e002a74
+t=2026-06-16T16:26:07+0800 lvl=info msg=end pg=/ id=521f286b0e002a74 status=302 dur=0s
+t=2026-06-16T16:26:07+0800 lvl=info msg=start pg=/inspect/http id=578256579ddc68c6
+t=2026-06-16T16:26:07+0800 lvl=info msg=end pg=/inspect/http id=578256579ddc68c6 status=200 dur=0s
+t=2026-06-16T16:26:07+0800 lvl=info msg=start pg=/static/css/app.DsGlyouJ.css id=5d2460670ccba3d2
+t=2026-06-16T16:26:07+0800 lvl=info msg=end pg=/static/css/app.DsGlyouJ.css id=5d2460670ccba3d2 status=200 dur=1.002ms
+t=2026-06-16T16:27:18+0800 lvl=info msg=start pg=/status id=497376e5a4d5107b
+t=2026-06-16T16:27:18+0800 lvl=info msg=end pg=/status id=497376e5a4d5107b status=200 dur=0s
+t=2026-06-16T16:34:11+0800 lvl=info msg="join connections" obj=join id=7ffd543707b8 l=127.0.0.1:3000 r=221.178.143.70:29476
+t=2026-06-16T16:36:37+0800 lvl=info msg="join connections" obj=join id=6cf53878b783 l=127.0.0.1:3000 r=221.178.143.70:43621
+t=2026-06-16T16:37:52+0800 lvl=info msg="join connections" obj=join id=a01f769b4de1 l=127.0.0.1:3000 r=36.150.60.24:61704
+t=2026-06-16T16:38:53+0800 lvl=info msg="join connections" obj=join id=10a6e3b3603f l=127.0.0.1:3000 r=183.134.40.85:2157
