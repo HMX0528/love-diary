@@ -6,8 +6,8 @@ import os from "os";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const PORT = 3000;
-const DOMAIN = "www.hmxlovely.com";
+const PORT = process.env.PORT || 3000;
+const DOMAIN = "";
 const DIST = path.join(__dirname, "dist");
 const DATA_DIR = path.join(__dirname, "data");
 const IMG_DIR = path.join(DATA_DIR, "images");
