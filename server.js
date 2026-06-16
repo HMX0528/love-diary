@@ -6,7 +6,7 @@ import os from "os";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DOMAIN = "www.hmxlovely.com";
 const DIST = path.join(__dirname, "dist");
 const DATA_DIR = path.join(__dirname, "data");
@@ -143,14 +143,6 @@ var serverHandler = async (req, res) => {
       res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
       res.end(data);
     });
-    return;
-  }
-
-  /* ===== Redirect non-localhost ===== */
-  var host = req.headers.host || "";
-  if (!host.includes("localhost") && !host.includes("127.0.0.1")) {
-    res.writeHead(301, { "Location": "http://localhost:3000" + req.url });
-    res.end();
     return;
   }
 
